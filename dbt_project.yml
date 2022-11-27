@@ -35,6 +35,6 @@ models:
     columns: true
   rj_rioaguas:
     # Config indicated by + and applies to all files under models/example/
-    infraestrutura_siscob_obras:
+    saneamento_drenagem:
       +materialized: table # Materialization type (view, table or incremental)
-      +schema: infraestrutura_siscob_obras # Overrides the default schema (defaults to what is set on profiles.yml)
+      +schema: saneamento_drenagem # Overrides the default schema (defaults to what is set on profiles.yml)
