@@ -7,8 +7,7 @@ models :
       \ João Paulo Fraga\n**Publicado por (email)**: jpfraga.rioaguas@gmail.com\n"
     columns:
       - name: primary_key
-        description: Chave primária criada a partir da concatenação da coluna id_estacao e data_medicao. Serve para evitar dados duplicados.
-          Formato: [id_estacao]_AAAA-MM-DD_HH:MM:SS.
+        description: "Chave primária criada a partir da concatenação da coluna id_estacao e data_medicao. Serve para evitar dados duplicados. Formato: [id_estacao]_AAAA-MM-DD_HH:MM:SS."
         tests:
           - unique
           - not_null
