@@ -2,20 +2,17 @@ version: 2
 
 models :
   - name: nivel_lamina_agua_via
-    description: "**Descrição**: Dados do sensor de ultrasom para medir alagamento em via pública.\n**Frequência de atualização**: 5 minutos\n**Cobertura\
-      \ temporal**: example\n**Órgão gestor dos dados**: RIOAGUAS\n**Publicado por**:\
-      \ João Paulo Fraga\n**Publicado por (email)**: jpfraga.rioaguas@gmail.com\n"
+    description: "**Descrição**: Dados do sensor de ultrasom para medir alagamento\
+      \ em via pública.\n**Frequência de atualização**: Diário\n**Cobertura temporal**:\
+      \ Desde 2022\n**Órgão gestor dos dados**: COR\n**Publicado por**: João Paulo\
+      \ Fraga\n**Publicado por (email)**: jpfraga.rioaguas@gmail.com\n"
     columns:
       - name: primary_key
-        description: "Chave primária criada a partir da concatenação da coluna id_estacao e data_medicao. Serve para evitar dados duplicados. Formato: [id_estacao]_AAAA-MM-DD_HH:MM:SS."
-        tests:
-          - unique
-          - not_null
+        description: Chave primária criada a partir da concatenação da coluna id_estacao
+          e data_medicao. Serve para evitar dados duplicados. Formato [id_estacao]_AAAA-MM-DD_HH:MM:SS
       - name: id_estacao
         description: ID da estação.
-      - name: altura_agua
-        description: Altura da lâmina de água na via medida em metros.
-      - name: horario
-        description: Horário da medição em formato HH:MM:SS.
       - name: data_particao
         description: Data da medição em formato AAAA-MM-DD.
+      - name: horario
+        description: Hora da medição em formato HH:MM:SS.
