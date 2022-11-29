@@ -44,8 +44,7 @@
                     "description": "Lâmina d'água no reservatório, em metros."
                 }
             ]
-        }
-    },
+        },
         "nivel_lamina_agua_via": {
             "title": "Saneamento drenagem: Nível de lâmina de água nos pontos monitorados em via pública",
             "short_description": "Dados do sensor de ultrasom para medir alagamento em via pública.",
