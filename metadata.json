@@ -37,6 +37,10 @@
                 {
                     "name": "horario",
                     "description": "Hora da medição em formato HH:MM:SS."
+                },
+                {
+                    "name": "altura_agua",
+                    "description": "Altura da lâmina de água na via medida em metros."
                 }
             ]
         }
