@@ -19,7 +19,4 @@ ST_GEOGPOINT(SAFE_CAST(longitude AS FLOAT64), SAFE_CAST(latitude AS FLOAT64)) AS
 projeto,
 SAFE_CAST(data_atualizacao AS DATE) data_atualizacao,
 SAFE_CAST(ano_vigencia AS INT16) ano_vigencia
-FROM `rj-rioaguas.saneamento_drenagem_staging.ponto_supervisionado_alagamento
-`
-
--- montar schema
+FROM `rj-rioaguas.saneamento_drenagem_staging.ponto_supervisionado_alagamento`
