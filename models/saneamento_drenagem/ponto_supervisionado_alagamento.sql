@@ -1,7 +1,7 @@
 SELECT 
 id_ponto_supervisionado,
 classe,
-SAFE_CAST(top_50 AS INT16) top_50,
+SAFE_CAST(top_50 AS INT) top_50,
 causa_alagamento,
 medida_cor,
 eliminado,
@@ -18,5 +18,5 @@ SAFE_CAST(utm_y AS FLOAT64) AS utm_y,
 ST_GEOGPOINT(SAFE_CAST(longitude AS FLOAT64), SAFE_CAST(latitude AS FLOAT64)) AS geometry,
 projeto,
 SAFE_CAST(data_atualizacao AS DATE) data_atualizacao,
-SAFE_CAST(ano_vigencia AS INT16) ano_vigencia
+SAFE_CAST(ano_vigencia AS INT) ano_vigencia
 FROM `rj-rioaguas.saneamento_drenagem_staging.ponto_supervisionado_alagamento`
