@@ -40,10 +40,6 @@
                     "description": "Longitude do ponto supervisonado."
                 },
                 {
-                    "name": "classe",
-                    "description": "Indica a que classe o ponto supervisionado pertence: ponto crítico, ponto observado ou monitorado."
-                },
-                {
                     "name": "utm_x",
                     "description": "X UTM (SAD69 Zona 23)"
                 },
@@ -98,6 +94,10 @@
                 {
                     "name": "ano_vigencia",
                     "description": "Ano de vigência dos pontos supervisionados que foram definidos pelo plano verão."
+                },
+                {
+                    "name": "classe",
+                    "description": "Indica a que classe o ponto supervisionado pertence: ponto crítico, ponto observado ou monitorado."
                 }
             ]
         },

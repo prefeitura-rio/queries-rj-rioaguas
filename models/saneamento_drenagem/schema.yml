@@ -15,9 +15,6 @@ models :
         description: Latitude do ponto supervisonado.
       - name: longitude
         description: Longitude do ponto supervisonado.
-      - name: classe
-        description: 'Indica a que classe o ponto supervisionado pertence: ponto crítico,
-          ponto observado ou monitorado.'
       - name: utm_x
         description: X UTM (SAD69 Zona 23)
       - name: utm_y
@@ -51,6 +48,9 @@ models :
       - name: ano_vigencia
         description: Ano de vigência dos pontos supervisionados que foram definidos
           pelo plano verão.
+      - name: classe
+        description: 'Indica a que classe o ponto supervisionado pertence: ponto crítico,
+          ponto observado ou monitorado.'
   - name: nivel_reservatorio
     description: "**Descrição**: Dados de nível dos reservatórios de manejo de águas\
       \ pluviais do município do Rio de Janeiro.\n**Frequência de atualização**: 5\
