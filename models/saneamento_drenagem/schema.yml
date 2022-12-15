@@ -66,7 +66,7 @@ models :
         description: Identificador do reservatório.
       - name: nome_reservatorio
         description: Nome do reservatório.
-      - name: data_medicao
+      - name: data_particao
         description: Data da medição no formato AAAA-MM-DD.
       - name: horario
         description: Hora da medicação no formato HH:MM:SS.

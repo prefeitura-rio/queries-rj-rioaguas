@@ -137,7 +137,7 @@
                     "description": "Nome do reservatório."
                 },
                 {
-                    "name": "data_medicao",
+                    "name": "data_particao",
                     "description": "Data da medição no formato AAAA-MM-DD."
                 },
                 {
