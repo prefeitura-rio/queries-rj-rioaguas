@@ -2,9 +2,10 @@ version: 2
 models :
   - name: nivel_reservatorio
     description: "**Descrição**: Dados de nível dos reservatórios de manejo de águas\
-      \ pluviais do município do Rio de Janeiro.\n**Frequência de atualização**: Diário\n\
-      **Cobertura temporal**: Desde 04/01/2021\n**Órgão gestor dos dados**: RIO ÁGUAS\n\
-      **Publicado por**: Anderson Guilherme\n**Publicado por (email)**: anderson.guilherme@cor.rio\n"
+      \ pluviais do município do Rio de Janeiro.\n**Frequência de atualização**: 5\
+      \ minutos\n**Cobertura temporal**: Desde 04/01/2021\n**Órgão gestor dos dados**:\
+      \ RIO ÁGUAS\n**Publicado por**: Anderson Guilherme\n**Publicado por (email)**:\
+      \ anderson.guilherme@cor.rio\n"
     columns:
       - name: primary_key
         description: Chave primária do dado em formato "[id_reserv]_AAAA-MM-DD_HH:MM:SS".
