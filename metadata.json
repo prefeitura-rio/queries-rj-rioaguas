@@ -181,7 +181,7 @@
                     "description": "ID da estação."
                 },
                 {
-                    "name": "data_medicao",
+                    "name": "data_particao",
                     "description": "Data da medição em formato AAAA-MM-DD."
                 },
                 {
