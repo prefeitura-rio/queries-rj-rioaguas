@@ -98,6 +98,10 @@
                 {
                     "name": "classe",
                     "description": "Indica a que classe o ponto supervisionado pertence: ponto crítico, ponto observado ou monitorado."
+                },
+                {
+                    "name": "projeto",
+                    "description": "Número do projeto de drenagem para o ponto supervisionado. Acompanhamento da RIOAGUAS."
                 }
             ]
         },

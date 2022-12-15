@@ -52,7 +52,8 @@ models :
         description: 'Indica a que classe o ponto supervisionado pertence: ponto crítico,
           ponto observado ou monitorado.'
       - name: projeto
-        description: Número do projeto de drenagem para o ponto supervisionado. Acompanhamento da RIOAGUAS
+        description: Número do projeto de drenagem para o ponto supervisionado. Acompanhamento
+          da RIOAGUAS.
   - name: nivel_reservatorio
     description: "**Descrição**: Dados de nível dos reservatórios de manejo de águas\
       \ pluviais do município do Rio de Janeiro.\n**Frequência de atualização**: 5\
