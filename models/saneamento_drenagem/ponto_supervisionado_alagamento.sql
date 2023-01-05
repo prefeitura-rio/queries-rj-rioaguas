@@ -1,4 +1,5 @@
 SELECT 
+DISTINCT
 id_ponto_supervisionado,
 classe,
 SAFE_CAST(top_50 AS INT) top_50,
