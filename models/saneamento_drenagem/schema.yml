@@ -7,15 +7,22 @@ models :
       **Órgão responsável**: Fundação Rio-Águas\n**Frequência de atualização**: 15\
       \ minutos.\n**Fonte dos dados**: Squitter."
     columns:
-      - name: data_medicao
-        description: Data e hora da medição do nível.
+      - name: primary_key
+        description: Chave primária criada a partir da coluna id_lagoa, data_particao e horario. Serve para evitar dados duplicados.
         tests:
           - unique
           - not_null
-      - name: nivel_agua
+      - name: id_estacao
+        description: ID único que indica a lagoa onde ocorreu a medição.
+      - name: nome_estacao
+        description: Nome da lagoa onde ocorreu a medição.
+      - name: lamina_nivel
         description: Cota do nível d'água da lagoa no referencial IBGE Imbituba.
+      - name: horario
+        description: Hora da medição em formato HH:MM:SS.
       - name: data_particao
         description: Data da medição usada como partição da tabela.
+
   - name: ponto_supervisionado_alagamento
     description: "**Descrição**: Dados sobre os pontos de alagamento supervisonados\
       \ pela RIOAGUAS na cidade do Rio de Janeiro. Todo ano é feito um estudo para\
