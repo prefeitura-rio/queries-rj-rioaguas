@@ -193,6 +193,52 @@
                     "description": "Altura da lâmina de água na via medida em metros."
                 }
             ]
+        },
+        "nivel_lagoa": {
+            "title": "Saneamento drenagem: Nível de água nas Lagoas da cidade do Rio de Janeiro",
+            "short_description": "Nivel de água nas lagoas da cidade do Rio de Janeiro.",
+            "long_description": "Nivel de água medido em metros a partir da cota no datum IBGE nas lagoas da cidade do Rio de Janeiro.",
+            "update_frequency": "Diário",
+            "temporal_coverage": "A partir de 2022",
+            "data_owner": "RIOAGUAS",
+            "publisher_name": "João Paulo Fraga",
+            "publisher_email": "joao.fraga@rio.rj.gov.br",
+            "tags": [
+                "meio ambiente",
+                "pluviometria",
+                "precipitação",
+                "alagamento",
+                "fluviometria"
+            ],
+            "categories": [
+                "0128241e3e024872a7eb46848eb7a7be"
+            ],
+            "columns": [
+                {
+                    "name": "primary_key",
+                    "description": "Chave primária criada a partir da coluna id_lagoa, data_particao e horario. Serve para evitar dados duplicados."
+                },
+                {
+                    "name": "id_estacao",
+                    "description": "ID único que indica a lagoa onde ocorreu a medição."
+                },
+                {
+                    "name": "nome_estacao",
+                    "description": "Nome da lagoa onde ocorreu a medição."
+                },
+                {
+                    "name": "data_particao",
+                    "description": "Data da medição em formato AAAA-MM-DD."
+                },
+                {
+                    "name": "horario",
+                    "description": "Hora da medição em formato HH:MM:SS."
+                },
+                {
+                    "name": "lamina_nivel",
+                    "description": "Cota do nível d'água da lagoa no referencial IBGE Imbituba."
+                }
+            ]
         }
     }
 }
