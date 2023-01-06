@@ -42,11 +42,11 @@ SELECT
 FROM `rj-rioaguas.saneamento_drenagem_staging.nivel_reservatorio`
 WHERE nivel_bandeira != 'nan' AND nivel_bandeira IS NOT NULL AND nivel_bandeira != '' AND nivel_bandeira != 'null')
 
-SELECT * FROM VARNHAGEN
+SELECT DISTINCT * FROM VARNHAGEN
 UNION ALL
 
-SELECT * FROM NITEROI
+SELECT DISTINCT * FROM NITEROI
 
 UNION ALL
 
-SELECT * FROM BANDEIRA  
+SELECT DISTINCT * FROM BANDEIRA  
