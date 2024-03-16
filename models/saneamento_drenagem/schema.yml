@@ -1,5 +1,6 @@
 version: 2
 models :
+
   - name: ponto_supervisionado_alagamento
     description: "**Descrição**: Dados sobre os pontos de alagamento supervisonados\
       \ pela RIOAGUAS na cidade do Rio de Janeiro. Todo ano é feito um estudo para\
@@ -72,6 +73,7 @@ models :
         description: Hora da medicação no formato HH:MM:SS.
       - name: altura_agua
         description: Lâmina d'água no reservatório, em metros.
+
   - name: nivel_lamina_agua_via
     description: "**Descrição**: Dados do sensor de ultrasom para medir alagamento\
       \ em via pública.\n**Frequência de atualização**: Diário\n**Cobertura temporal**:\
